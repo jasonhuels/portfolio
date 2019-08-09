@@ -3,12 +3,14 @@ html {
   color: white;
 }
 
-.heading {
+.splash, .repos {
     background-color: black;
-    padding: 0px;
+    color: white;
+    font-family: monospace;
+    padding-top: 10px;
 }
 
-.heading h1 {
+.splash h1 {
   color: black;
   text-align: center;
   font-style: italic;
@@ -21,7 +23,7 @@ html {
   border: 10px solid #1c3c78;
 }
 
-.heading img {
+.splash img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +43,7 @@ html {
   background-color: #302f2c ;
   border-color: darkgrey;
   border: 5px dashed darkgrey;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 ol, ul {
