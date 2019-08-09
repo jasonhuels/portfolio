@@ -11,3 +11,16 @@ function mouseOver(myElement, size) {
 function mouseOut(myElement, size) {
   myElement.setAttribute("style", "opacity: 1; width: " + size +"%;");
 }
+
+/**
+* Highlight HTML on mouseover
+*/
+function highlight(myElement) {
+  myElement.setAttribute("style", "background-color: white;");
+}
+/**
+* Highlight HTML on mouseover
+*/
+function unhighlight(myElement) {
+  myElement.setAttribute("style", "background-color: black;");
+}
