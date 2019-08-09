@@ -5,6 +5,7 @@ html {
 
 .heading {
     background-color: black;
+    padding: 0px;
 }
 
 .heading h1 {
@@ -39,7 +40,8 @@ html {
 .nav-well {
   background-color: #302f2c ;
   border-color: darkgrey;
-  border: 10px dashed darkgrey;
+  border: 5px dashed darkgrey;
+  margin-bottom: 0px;
 }
 
 ol, ul {
@@ -70,4 +72,13 @@ ol, ul {
 .biography h1, h2 {
   text-decoration-color: white;
   text-decoration: underline;
+}
+
+.contacts {
+  text-align: center;
+  background-color: Black;
+  color: white;
+  font-family: monospace;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
