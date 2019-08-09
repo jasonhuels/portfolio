@@ -11,7 +11,6 @@ _My first Epicodus independent project: a portfolio landing page for github repo
 ## Setup/Installation Requirements
 
 * _Open html file in browser of your choosing_
-* _to list setup instructions_
 
 ## Known Bugs
 
@@ -20,10 +19,11 @@ _N/A_
 ## Support and contact details
 
 _support email: jasonhuels@yahoo.com_
+_https://jasonhuels.github.io/portfolio/index.html_
 
 ## Technologies Used
 
-_HTML, CSS, bootstrap, github_
+_HTML, CSS, bootstrap, github, JavaScript_
 
 ### License
 

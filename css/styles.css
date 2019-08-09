@@ -72,9 +72,13 @@ ol, ul {
   text-align: left;
 }
 
+.biography {
+    font-size: 15px;
+}
+
 .biography h1, h2 {
-  text-decoration-color: white;
   text-decoration: underline;
+  color: lime;
 
 }
 
@@ -102,4 +106,9 @@ ol, ul {
 
 .panel-body {
   color: black;
+}
+
+.repos {
+  padding: 100px;
+  text-align: center;
 }
