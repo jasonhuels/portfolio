@@ -42,6 +42,19 @@ html {
   border: 10px dashed darkgrey;
 }
 
-.experience ol {
+ol, ul {
   text-align: left;
+}
+
+.bridget {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  float: right;
+  padding: 15px;
+}
+
+.about p {
+  padding: 15px;
 }
