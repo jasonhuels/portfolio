@@ -1,0 +1,15 @@
+.heading h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 100px;
+  text-shadow: 3px 3px lightgrey;
+  background-color: skyblue;
+}
+
+.heading img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
