@@ -58,3 +58,16 @@ ol, ul {
 .about p {
   padding: 15px;
 }
+
+.interests p, ul{
+  padding: 15px;
+}
+
+.interests p, li {
+  text-align: left;
+}
+
+.biography h1, h2 {
+  text-decoration-color: white;
+  text-decoration: underline;
+}
