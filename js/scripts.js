@@ -1,12 +1,12 @@
-var myElement = document.getElementById("home-tab");
+var myElement = document.getElementById("bridget");
 
 myElement.onmouseover = function() {mouseOver()};
 myElement.onmouseout = function() {mouseOut()};
 
 function mouseOver() {
-  myElement.setAttribute("style", "font-style: italic; font-size: 40px; color: red; background-color: #383838");
+  myElement.setAttribute("style", "width: 100%;");
 }
 
 function mouseOut() {
-  myElement.setAttribute("style", "font-style: normal; font-size: 30px; color: #337ab7;");
+  myElement.setAttribute("style", "width: 30%;");
 }
