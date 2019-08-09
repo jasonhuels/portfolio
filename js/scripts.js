@@ -1,12 +1,12 @@
-var myElement = document.getElementById("bridget");
+// var myElement = document.getElementById("bridget");
+//
+// myElement.onmouseover = function() {mouseOver()};
+// myElement.onmouseout = function() {mouseOut()};
 
-myElement.onmouseover = function() {mouseOver()};
-myElement.onmouseout = function() {mouseOut()};
-
-function mouseOver() {
-  myElement.setAttribute("style", "width: 100%;");
+function mouseOver(myElement, size) {
+  myElement.setAttribute("style", "width: " + size + "%;");
 }
 
-function mouseOut() {
-  myElement.setAttribute("style", "width: 30%;");
+function mouseOut(myElement, size) {
+  myElement.setAttribute("style", "width: " + size +"%;");
 }

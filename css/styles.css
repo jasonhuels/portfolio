@@ -91,6 +91,10 @@ ol, ul {
   color: red;
 }
 
-.demo {
+#demo {
   width: 75%;
+}
+
+.experience ul, ol {
+  padding-top: 10px;
 }
