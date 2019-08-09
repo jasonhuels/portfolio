@@ -44,6 +44,7 @@ html {
   border-color: darkgrey;
   border: 5px dashed darkgrey;
   margin: 0;
+  height: fixed;
 }
 
 ol, ul {
