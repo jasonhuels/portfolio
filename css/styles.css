@@ -92,9 +92,14 @@ ol, ul {
 }
 
 #demo {
+  opacity: 0.10;
   width: 75%;
 }
 
 .experience ul, ol {
   padding-top: 10px;
+}
+
+.panel-body {
+  color: black;
 }

@@ -21,6 +21,8 @@
       <div class="row">
         <div class="col-md-4 about">
           <h1>About Me</h1>
+          <!-- I added a small JavaScript function to try and refresh myself on writing JS
+          in anticipation for next week's lesson and because my dog is so cute her picture should be bigger-->
           <img src="img/bridget.jpg" alt="my dog Bridget" class="bridget" id="bridget" onmouseenter="mouseOver(this, 100)" onmouseleave="mouseOut(this, 30)">
           <p>My name is <strong>Jason Huels</strong>. I am an aspiring programmer, bedroom-musician, and video game enthusiast.
           I was born in Vermont in 1987, I spent most of my formative years in Central California, and moved to Portland, OR
@@ -63,8 +65,12 @@
             <li>Game Development: Game Maker Studio</li>
           </ul>
 
-          <img src="img/ICSB.gif" alt="a game I made" id="demo" onmouseenter="mouseOver(this, 200)" onmouseleave="mouseOut(this, 75)">
-          <p>I demo of a game I made called "I Can't Stop Bleeding"</p>
+          <div class="panel panel-danger">
+            <div class="panel-heading"><h3>Content Warning</h3><h4>Animated Blood</h4></div>
+            <div class="panel-body"><p>Mouse over to reveal content.</p></div>
+          </div>
+          <img src="img/ICSB.gif" alt="a game I made" id="demo" onmouseenter="mouseOver(this, 200)" onmouseleave="mouseOut(this, 100)">
+          <p>A demo of a game I made called "I Can't Stop Bleeding"</p>
 
         </div>
         <div class="col-md-4 interests">
