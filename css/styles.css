@@ -74,6 +74,7 @@ ol, ul {
 .biography h1, h2 {
   text-decoration-color: white;
   text-decoration: underline;
+
 }
 
 .contacts {
@@ -83,4 +84,8 @@ ol, ul {
   font-family: monospace;
   padding-top: 100px;
   padding-bottom: 50px;
+}
+
+.make-red {
+  color: red;
 }
