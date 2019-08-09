@@ -13,8 +13,11 @@ html {
   font-style: italic;
   font-family: monospace;
   font-size: 100px;
-  text-shadow: 3px 3px grey;
+  text-shadow: 3px 3px #1c3c78;
   background-color: skyblue;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 10px solid #1c3c78;
 }
 
 .heading img {
@@ -22,6 +25,8 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  padding: 20px;
+  border: 10px solid #1c3c78;
 }
 
 .row {
@@ -33,4 +38,10 @@ html {
 
 .nav-well {
   background-color: #302f2c ;
+  border-color: darkgrey;
+  border: 10px dashed darkgrey;
+}
+
+.experience ol {
+  text-align: left;
 }
