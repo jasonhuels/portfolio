@@ -60,6 +60,14 @@ ol, ul {
   padding: 15px;
 }
 
+.bridget:hover {
+  width: 100%;
+}
+
+a:hover {
+  background-color: white;
+}
+
 .about p {
   padding: 15px;
 }
@@ -98,6 +106,11 @@ ol, ul {
 #demo {
   opacity: 0.10;
   width: 75%;
+}
+
+#demo:hover {
+  opacity: 1;
+  width: 200%;
 }
 
 .experience ul, ol {
